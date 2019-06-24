@@ -1,0 +1,126 @@
+﻿@{ 
+    Layout = null;
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <!-- title -->
+    <title>DT Financial API</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="author" content="Drew Taylor">
+    <!-- description -->
+    @*<meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">*@
+    <!-- favicon -->
+    <link rel="shortcut icon" href="~/favicon.ico">
+
+    <!-- animation -->
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- et line icon -->
+    <link href="~/Content/et-line-icons.css" rel="stylesheet" />
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- themify icon -->
+    <link href="~/Content/themify-icons.css" rel="stylesheet" />
+    <!-- swiper carousel -->
+    <link href="~/Content/swiper.min.css" rel="stylesheet" />
+    <!-- justified gallery  -->
+    <link href="~/Content/justified-gallery.min.css" rel="stylesheet" />
+    <!-- magnific popup -->
+    <link href="~/Content/magnific-popup.css" rel="stylesheet" />
+    <!-- revolution slider -->
+    <link href="~/Content/magnific-popup.css" rel="stylesheet" media="screen" />
+    <link href="~/Content/layers.css" rel="stylesheet" />
+    <link href="~/Content/navigation.css" rel="stylesheet" />
+    <!-- bootsnav -->
+    <link href="~/Content/bootsnav.css" rel="stylesheet" />
+    <!-- style -->
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <!-- responsive css -->
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+    <!--[if IE]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <link href="~/Content/CustomDrew.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- start hero section -->
+    <section id="home" class="p-0 parallax mobile-height wow fadeIn" data-stellar-background-ratio="0.5" style="background-image: url('../../Images/helloquence-61189-unsplash.jpg');">
+        <div class="opacity-extra-medium bg-extra-dark-gray"></div>
+        <div class="container position-relative full-screen">
+            <div class="slider-typography text-center">
+                <div class="slider-text-middle-main sm-padding-15px-lr">
+                    <div class="slider-text-middle">
+                        <img class="Up200 BotUp200" src="~/Images/FullLogo.png" />
+                        <div class="text-center"><a href="@Url.Action("Index", "Swagger")" class="inner-link"><i class="ti-search text-white-2 TealBackground padding-15px-all sm-padding-10px-all rounded-circle"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section -->
+    <!-- javascript libraries -->
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <script src="~/Scripts/jquery.easing.1.3.js"></script>
+
+    <script src="~/Scripts/smooth-scroll.js"></script>
+    <script src="~/Scripts/jquery.appear.js"></script>
+    <!-- menu navigation -->
+    <script src="~/Scripts/bootsnav.js"></script>
+    <script src="~/Scripts/jquery.nav.js"></script>
+    <!-- animation -->
+    <script src="~/Scripts/wow.min.js"></script>
+    <!-- page scroll -->
+    <script src="~/Scripts/page-scroll.js"></script>
+    <!-- swiper carousel -->
+    <script src="~/Scripts/swiper.min.js"></script>
+    <!-- counter -->
+    <script src="~/Scripts/jquery.count-to.js"></script>
+    <!-- parallax -->
+    <script src="~/Scripts/jquery.stellar.js"></script>
+    <!-- magnific popup -->
+    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+    <!-- portfolio with shorting tab -->
+    <script src="~/Scripts/isotope.pkgd.min.js"></script>
+    <!-- images loaded -->
+    <script src="~/Scripts/imagesloaded.pkgd.min.js"></script>
+    <!-- pull menu -->
+    <script src="~/Scripts/classie.js"></script>
+    <script src="~/Scripts/hamburger-menu.js"></script>
+    <!-- counter  -->
+    <script src="~/Scripts/counter.js"></script>
+    <!-- fit video  -->
+    <script src="~/Scripts/jquery.fitvids.js"></script>
+    <!-- skill bars  -->
+    <script src="~/Scripts/skill.bars.jquery.js"></script>
+    <!-- justified gallery  -->
+    <script src="~/Scripts/justified-gallery.min.js"></script>
+    <!--pie chart-->
+    <script src="~/Scripts/jquery.easypiechart.min.js"></script>
+    <!-- instagram -->
+    <script src="~/Scripts/instafeed.min.js"></script>
+    <!-- retina -->
+    <script src="~/Scripts/retina.min.js"></script>
+    <!-- revolution -->
+    <script src="~/Scripts/jquery.themepunch.tools.min.js"></script>
+    <script src="~/Scripts/jquery.themepunch.revolution.min.js"></script>
+    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+    <!-- setting -->
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>

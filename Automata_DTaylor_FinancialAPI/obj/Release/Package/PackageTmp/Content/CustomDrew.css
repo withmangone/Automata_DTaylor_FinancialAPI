@@ -1,0 +1,27 @@
+﻿.White {
+    color: white !important;
+}
+.TealBackground {
+    background-color: #04C5C5 !important;
+}
+.MostlyTransparent {
+    opacity: 0.25;
+}
+.MostlyOpaque {
+    opacity: .8;
+}
+
+.Helvetica {
+    font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.HelveticaThin {
+    font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:lighter;
+}
+
+.Up200 {
+    margin-top:-200px;
+}
+.BotUp200 {
+    margin-bottom: -200px;
+}
